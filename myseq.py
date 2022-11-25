@@ -54,7 +54,7 @@ class MySeq:
         if (self.seq_type=="DNA"): return "ACGT"
         elif (self.seq_type=="RNA"): return "ACGU"
         elif (self.seq_type=="PROTEIN"): return "ACDEFGHIKLMNPQRSTVWY"
-        else: return None
+        else: return ""
         
     def validate (self):
         alp = self.alphabet()
